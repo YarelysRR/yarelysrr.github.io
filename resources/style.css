@@ -67,9 +67,15 @@ h3 {
 }
 
 p {
-  color: grey;
+  color: white;
   font-size: 16px;
   line-height: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content p > a {
+  color: red;
 }
 
 .pull-quote {
@@ -100,7 +106,7 @@ p {
 }
 
 .share a:hover {
-  background: white;
+  background: turquoise;
   border: 1px solid blue;
-  color: blueviolet;
+  color: black;
 }
