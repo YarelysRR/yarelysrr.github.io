@@ -111,6 +111,7 @@ p {
   color: rgb(255, 255, 255);
   display: inline-block;
   text-decoration: none;
+  padding: 14px;
 }
 
 .share a:hover {
