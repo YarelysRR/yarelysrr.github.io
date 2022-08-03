@@ -23,7 +23,6 @@ body {
 }
 
 #banner {
-  background-image: url("/resources/media/pictures/banner.jpg");
   background-size: cover;
   background-position: bottom center;
   height: 700px;
@@ -118,4 +117,21 @@ p {
   background: turquoise;
   border: 1px solid blue;
   color: black;
+}
+
+@media (max-width: 2000px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+
+  #banner {
+    background-image: url("/resources/media/pictures/banner.jpg");
+  }
 }
