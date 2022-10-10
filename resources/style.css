@@ -1,66 +1,65 @@
-html,
-body,
-div,
-span,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-address,
-em,
-img,
-small,
-center,
-ol,
-ul,
-li,
-form,
-label,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-menu,
-nav,
-output,
-section,
-summary,
-time,
-audio,
-video {
+* {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+textarea {
+  white-space: revert;
 }
 
 body {
   background-color: black;
   font-family: "Raleway", sans-serif;
+  line-height: 1.5;
 }
 
 .navigation ul {
@@ -90,9 +89,17 @@ body {
   background-image: url("/resources/media/pictures/banner.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 700px;
   max-width: 100%;
 }
+
+/*#banner:hover {
+  filter: saturate(0.2);
+  filter: blur();
+  transform: scale();
+  remove this, this is just playing around. Check documentationa bout filter functions
+}*/
 
 #banner h1 {
   color: white;
@@ -190,6 +197,11 @@ p {
   background: blue;
   border: 1px solid white;
   color: white;
+}
+
+.emoji {
+  display: flex;
+  justify-content: center;
 }
 
 footer {
