@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+textarea {
+  white-space: revert;
+}
+
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+
+h2 {
+  color: white;
+  font-size: 14px;
+  line-height: 48px;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+  line-height: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navigation ul {
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.navigation li.logo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.logo_size {
+  max-width: 150px;
+}
+
+.profile-pict {
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+.content h4 {
+  color: white;
+  font-size: 10px;
+  text-align: right;
+  position: relative;
+  bottom: -540px;
+}
+.content h4 a {
+  color: turquoise;
+}
+
+.click-me {
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.click-me a {
+  border: 3px solid white;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.click-me a:hover {
+  background: blue;
+  border: 1px solid white;
+  color: white;
+}
+
+.emoji {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin: 60px auto;
+}
+
+footer .myemail_link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+footer .myemail_link:hover {
+  color: blue;
+}
+footer .sm-links a {
+  color: white;
+  background: blue;
+  border-radius: 50%;
+  border: solid black 1px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .sm-links a:hover {
+  color: white;
+  background-color: black;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+}
