@@ -76,13 +76,13 @@ h3 {
   padding: 20px 10px;
 }
 
-p {
+/*p {
   color: white;
   font-size: 16px;
   line-height: 48px;
   font-weight: bold;
   text-align: center;
-}
+}*/
 
 .navigation ul {
   color: white;
@@ -108,19 +108,24 @@ p {
 }
 
 .profile-pict {
-  max-width: 70%;
-  border-radius: 20px;
+  max-width: 50%;
 }
 
-.content h4 {
-  color: white;
-  font-size: 10px;
-  text-align: right;
-  position: relative;
-  bottom: -540px;
+.card-body p {
+  font-size: 18px;
+  color: black;
+  text-align: center;
 }
-.content h4 a {
-  color: turquoise;
+
+.container-about-paragraph {
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-about-paragraph .text-light {
+  padding-top: 10%;
+  font-size: 1.2rem;
 }
 
 .click-me {
@@ -179,15 +184,25 @@ footer .sm-links a:hover {
   background-color: black;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 576px) {
   h1 {
-    font-size: 44px;
+    font-size: 20px;
     line-height: 56px;
   }
-  h2 {
-    font-size: 44px;
-  }
   h3 {
-    font-size: 26px;
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  .card-cont {
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile-pict {
+    max-width: 50%;
+    margin: 0 auto;
   }
 }
