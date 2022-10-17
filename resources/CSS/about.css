@@ -57,16 +57,10 @@ textarea {
 }
 
 body {
-  background-color: black;
+  background-color: white;
   font-family: "Raleway", sans-serif;
-  line-height: 1.5;
-}
-
-h2 {
-  color: white;
-  font-size: 14px;
-  line-height: 48px;
-  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
 }
 
 h3 {
@@ -121,6 +115,14 @@ h3 {
   max-width: 90%;
   text-align: center;
   margin: 0 auto;
+}
+
+.container-about-paragraph a {
+  color: white;
+}
+
+.container-about-paragraph a:visited {
+  color: #ff00ff;
 }
 
 .container-about-paragraph .text-light {

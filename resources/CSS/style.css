@@ -59,7 +59,8 @@ textarea {
 body {
   background-color: black;
   font-family: "Raleway", sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
 }
 
 .navigation a {
@@ -114,9 +115,9 @@ body {
   border: 3px solid white;
   border-radius: 4px;
   position: relative;
-  top: 130px;
+  top: 190px;
   width: 400px;
-  height: 80px;
+  height: 150px;
   margin: 0 auto;
 }
 
@@ -133,6 +134,13 @@ body {
   padding: 100px 20px;
 }
 
+.content h1 {
+  letter-spacing: 0.05em;
+}
+.content p {
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+}
 .profile-pict {
   max-width: 70%;
   border-radius: 20px;
@@ -152,7 +160,7 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: white;
   font-size: 26px;
   font-weight: 700;
   padding: 20px 10px;
@@ -164,14 +172,16 @@ p {
   line-height: 48px;
   font-weight: bold;
   text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .content h4 {
   color: white;
-  font-size: 10px;
+  font-size: 18px;
   text-align: right;
   position: relative;
-  bottom: -540px;
+  bottom: -425px;
+  padding-right: 10px;
 }
 .content h4 a {
   color: turquoise;
@@ -233,15 +243,21 @@ footer .sm-links a:hover {
   background-color: black;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 576px) {
   h1 {
-    font-size: 44px;
+    font-size: 20px;
     line-height: 56px;
   }
-  h2 {
-    font-size: 44px;
-  }
   h3 {
-    font-size: 26px;
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  iframe {
+    max-width: 90%;
+    margin: 1.5rem;
+    /* check this as I was testing */
   }
 }
