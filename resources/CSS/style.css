@@ -63,6 +63,28 @@ body {
   letter-spacing: 0.05em;
 }
 
+h2 {
+  color: white;
+  font-size: 14px;
+  line-height: 48px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+  line-height: 48px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
 .navigation a {
   color: white;
   text-decoration: none;
@@ -107,18 +129,38 @@ body {
   remove this, this is just playing around. Check documentationa bout filter functions
 }*/
 
-#banner h1 {
+.hero-info h1 {
   color: white;
-  font-size: 42px;
+  font-size: 3rem;
   font-weight: 700;
   text-align: center;
-  border: 3px solid white;
-  border-radius: 4px;
+  letter-spacing: 0.05em;
   position: relative;
   top: 190px;
-  width: 400px;
-  height: 150px;
   margin: 0 auto;
+}
+
+.hero-info p {
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+  position: relative;
+  top: 210px;
+}
+.profile-pict {
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+.hero-info figcaption {
+  color: white;
+  font-size: 18px;
+  text-align: right;
+  position: relative;
+  bottom: -470px;
+  padding-right: 10px;
+}
+.hero-info figcaption a {
+  color: turquoise;
 }
 
 .btn-branding {
@@ -129,64 +171,6 @@ body {
   line-height: 27px;
   padding: 15px 30px;
 }
-
-.content-container {
-  padding: 100px 20px;
-}
-
-.content h1 {
-  letter-spacing: 0.05em;
-}
-.content p {
-  font-size: 1.5rem;
-  letter-spacing: 0.05em;
-}
-.profile-pict {
-  max-width: 70%;
-  border-radius: 20px;
-}
-
-#main {
-  padding: 40px;
-  text-align: center;
-  width: 400px;
-}
-
-h2 {
-  color: white;
-  font-size: 14px;
-  line-height: 48px;
-  text-align: center;
-}
-
-h3 {
-  color: white;
-  font-size: 26px;
-  font-weight: 700;
-  padding: 20px 10px;
-}
-
-p {
-  color: white;
-  font-size: 16px;
-  line-height: 48px;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 0.05em;
-}
-
-.content h4 {
-  color: white;
-  font-size: 18px;
-  text-align: right;
-  position: relative;
-  bottom: -425px;
-  padding-right: 10px;
-}
-.content h4 a {
-  color: turquoise;
-}
-
 .click-me {
   padding: 40px 0px;
   position: relative;
@@ -228,6 +212,7 @@ footer .myemail_link {
 footer .myemail_link:hover {
   color: blue;
 }
+
 footer .sm-links a {
   color: white;
   background: blue;
@@ -238,12 +223,22 @@ footer .sm-links a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
+
+.contact-sm-links a {
+  color: white;
+  background: blue;
+  border-radius: 15%;
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 3.5rem;
+}
+
 footer .sm-links a:hover {
   color: white;
   background-color: black;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 20px;
     line-height: 56px;
@@ -253,6 +248,32 @@ footer .sm-links a:hover {
   }
   p {
     font-size: 14px;
+  }
+
+  .hero-info figcaption {
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    position: relative;
+    bottom: -360px;
+    padding-right: 10px;
+  }
+
+  .hero-info h1 {
+    font-size: 2.2rem;
+  }
+  .hero-info p {
+    font-size: 1rem;
+  }
+
+  .hero-info figcaption {
+    font-size: 16px;
+    position: relative;
+    bottom: -440px;
+    padding-right: 10px;
+  }
+  .hero-info figcaption a {
+    color: turquoise;
   }
 
   iframe {
