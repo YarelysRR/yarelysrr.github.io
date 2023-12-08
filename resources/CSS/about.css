@@ -112,13 +112,21 @@ h3 {
 }
 
 .bg-about-paragrapgh {
-  background-color: turquoise;
+  background-color: blue;
 }
 
 .container-about-paragraph {
   max-width: 90%;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto 20px auto;
+  background-color: white;
+  padding: 20px;
+}
+
+.col-12.col-md-6.bg-about-paragrapgh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-about-paragraph a {
@@ -133,6 +141,36 @@ h3 {
   padding-top: 10%;
   font-size: 1.2rem;
 }
+
+/* test for bg and container skills, certs and education. Look and feel: post it note*/
+.bg-skills-cert {
+  max-width: 90%;
+  height: 88%;
+  text-align: center;
+  margin: 20px auto 20px auto;
+  background-color: white;
+  padding: 5px;
+}
+.container-skills-cert {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* cert container was smaller than other change this from center to strecth and added height in bgskillscert that fixed!*/
+}
+
+.bg-education {
+  max-width: 90%;
+  height: 80%;
+  text-align: center;
+  margin: 20px auto 20px auto;
+  background-color: white;
+  padding: 5px;
+}
+.container-education {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+/* END OF TEST*/
 
 .click-me {
   padding: 40px 0px;
