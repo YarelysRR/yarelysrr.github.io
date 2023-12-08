@@ -57,7 +57,7 @@ textarea {
 }
 
 body {
-  background-color: white;
+  background-color: black;
   font-family: "Raleway", sans-serif;
   line-height: 1.6;
   letter-spacing: 0.05em;
@@ -98,7 +98,7 @@ h3 {
 }
 
 .logo_size {
-  max-width: 150px;
+  max-width: 4rem;
 }
 
 .profile-pict {
@@ -109,6 +109,10 @@ h3 {
   font-size: 18px;
   color: black;
   text-align: center;
+}
+
+.bg-about-paragrapgh {
+  background-color: turquoise;
 }
 
 .container-about-paragraph {
